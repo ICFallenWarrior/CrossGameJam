@@ -13,6 +13,7 @@ public class Coins : MonoBehaviour
 
     void Awake()
     {
+        coins = 20000;
         coinDisplayer.text = "Coins: " + coins.ToString();
     }
 
@@ -34,7 +35,7 @@ public class Coins : MonoBehaviour
     public void UpdateCoins()
     {
 
-            coinDisplayer.text = "Coins: " + coins;
+      coinDisplayer.text = "Coins: " + coins;
 
     }
 
